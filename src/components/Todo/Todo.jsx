@@ -22,6 +22,8 @@ const Todo = () => {
     
     <div className="main-container">
       <div className="center-container">
+        <h1>Todo List</h1>
+        <br />
         <TodoInput addList={addList} />
         <h1 className="app-heading">List of Your Todo's</h1>
         <hr/>
